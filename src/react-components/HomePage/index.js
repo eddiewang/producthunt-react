@@ -49,7 +49,6 @@ class HomePage extends React.Component {
                   <span>
                     <i className="fa fa-sort-asc"></i>
                   </span>
-                  <br />
                   {this.state.productList[0].upvote}
                 </a>
                 <img src={this.state.productList[0].media} alt="" className="product-item-media"/>
